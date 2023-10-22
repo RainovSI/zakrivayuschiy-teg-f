@@ -13,8 +13,5 @@
     linear-gradient(#e7e7e7, #1a1a1a);
   --content-block-width: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
   --icon-fill-color: #ff0000;
-  --stroke-color: #000000;
-}
-
-@media (width <= 375px) {
+  --contour-color: #000000;
 }

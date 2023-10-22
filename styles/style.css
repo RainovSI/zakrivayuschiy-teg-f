@@ -206,6 +206,14 @@
   z-index: 1;
 }
 
+@supports (text-stroke: 1px var(--background-color)) or (-webkit-text-stroke: 1px var(--background-color)) {
+  .card__image-label {
+    -webkit-text-stroke: 1px var(--background-color);
+    text-stroke: 1px var(--background-color);
+    text-shadow: none;
+  }
+}
+
 .card__button-box {
   display: flex;
   justify-content: flex-end;

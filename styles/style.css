@@ -324,7 +324,7 @@
 
 .card__save-button:hover {
   color: #ffffff;
-  transition: all 2s ease;
+  transition: color 2s ease;
 }
 
 .card__save-button::before {
